@@ -1,0 +1,50 @@
+body {
+    color: rgb(255, 255, 255);
+    background: red;
+    margin: 12px;
+}
+header {
+    border-bottom: solid 3px rgb(156, 194, 243);
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(21, 223, 88);
+    background-color: black;
+    font-family: cursive;
+}
+.chamada {
+    background: blue;
+    padding-bottom: 25px;
+    padding-top: 55px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+
+}
+.chamada-texto {
+    font-size: 22;
+}
+p {
+    color: rgb(156, 194, 243)
+}
+img {
+    height: 200px;
+}
+
+.categoria-desenhos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px; 
+    opacity: 0,5;
+}
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+  }
+  h2 {
+    padding-left: 30px;
+    padding-top: 10px;
+  }
+.video {
+   padding-left: 500px;
+}
